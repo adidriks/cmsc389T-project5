@@ -15,4 +15,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port:  ${{ secrets.PORT }}
           script: |
-              git clone git@github.com:adidriks/cmsc389T-project5.git
+              git clone cmsc389T-project5

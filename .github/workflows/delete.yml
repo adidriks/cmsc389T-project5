@@ -16,4 +16,5 @@ jobs:
           port:  ${{ secrets.PORT }}
           script: |
               unalias rm
-              rm -rf pub/adidriks/cmsc389T-project5
+              cd /pub/adidriks
+              rm -rf cmsc389T-project5
